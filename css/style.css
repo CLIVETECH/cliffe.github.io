@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gentium Plus', serif;}
+ 
+body{
+    margin: 0;
+    padding: 0;
+    padding: 15px;
+    
+}
+.nav ul{
+    list-style: none;
+    background: black;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li{
+    display: inline-block;
+
+}
+.nav a{
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+}
+.nav a:hover{
+background: red;
+transition: 0.6s;
+} 
+
+.headerone
+{
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-family: 'Gentium Plus', serif;
+    color: black;
+    background-color:orange; 
+    text-align: center;
+}
+
+.row{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.containerfooter{
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    background-color: orange;
+
+}
